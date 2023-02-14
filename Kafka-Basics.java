@@ -1,6 +1,28 @@
+KAFKA 
 
 
--Basic setting 
+
+Producer - Broker [Topics] - Consumer 
+
+
+in Cluster, there are some Brokers
+Each Broker has Topics, they're like DBs that
+producers can send data to, and Consumers can get data from 
+
+
+
+<Serializer>
+
+convert to and from Java Object to JSON byte<> 
+
+
+<TOPIC> 
+
+-to see the msgs in topic, run the command: 
+bin/kafka-console-consumer.sh --topic javaguides_json --from-beginning --bootstrap-server localhost:9092 ---> this will show the msgs in the javaguides_json topic 
+
+
+BASIC SETTING
 
 spring.kafka.producer.bootstrap-servers: localhost:9092
   
