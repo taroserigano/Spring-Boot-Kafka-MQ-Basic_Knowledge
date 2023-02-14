@@ -1,5 +1,7 @@
 KAFKA 
 
+run Kafka by command 
+separately, ru spring boot app 
 
 
 Producer - Broker [Topics] - Consumer 
